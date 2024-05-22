@@ -1,58 +1,32 @@
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
-  Include a 1280×640 image, course name in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Next to "About", add description & tags; disable releases, packages, & environments.
-  Add your open source license, GitHub uses the MIT license.
--->
+# Feature branch workflow
 
-# TBD-course-name
-
-_TBD-course-description_
+_Learn one of the most popular Git workflows in less than an hour_
 
 </header>
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
-
 ## Welcome
 
-TBD-welcome-paragraph
+Widely used in the world of Git, the feature branch workflow makes it easy for multiple developers to work on new features without disturbing the main codebase. The main idea behind the workflow is that all feature development should be done in a dedicated branch, instead of the `main` branch.
 
-- **Who is this for**: TBD-audience.
-- **What you'll learn**: TBD-objective.
-- **What you'll build**: TBD-result.
-- **Prerequisites**: TBD-prerequisites.
-- **How long**: This course takes less than TBD-duration to complete.
+- **Who is this for**: Developers, students, and teams.
+- **What you'll learn**: How to follow a feature branch workflow.
+- **What you'll build**: You will merge a feature into an active codebase.
+- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
+- **How long**: Less than one hour.
 
 In this course, you will:
 
-1. TBD-step-1-name
-2. TBD-step-2-name
-3. TBD-step-3-name
-4. TBD-step-4-name
-5. TBD-step-5-name
+1. Create a branch
+2. Commit a file
+3. Open a pull request
+4. Merge changes from base branch
+5. Merge your pull request
 
 ### How to start this course
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'TBD-organization',
-  template_name: 'TBD-course-name',
-  owner: '@me',
-  name: 'TBD-organization-TBD-course-name',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](TBD-generate)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=jasonqiu212&template_name=feature-branch-workflow&owner=%40me&name=feature-branch-workflow&visibility=public)
 
 1. Right-click **Start course** and open the link in a new tab.
 2. In the new tab, most of the prompts will automatically fill in for you.
@@ -63,15 +37,10 @@ In this course, you will:
 
 <footer>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
 ---
 
-Get help: [TBD-support](TBD-support-link) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Get help: [Post in the discussion board](https://github.com/jasonqiu212/feature-branch-workflow/discussions/categories/q-a) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
-&copy; 2023 TBD-copyright-holder &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; Jason Qiu &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
