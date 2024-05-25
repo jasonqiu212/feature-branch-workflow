@@ -8,7 +8,7 @@ _Learn one of the most popular Git workflows in less than an hour_
 
 ## Welcome
 
-Widely used in the world of Git, the feature branch workflow makes it easy for multiple developers to work on new features without disturbing the main codebase. The main idea behind the workflow is that all feature development should be done in a dedicated branch, instead of the `main` branch.
+Widely used in the world of Git, the feature branch workflow makes it easy for multiple developers to work on new features without disturbing the main codebase.
 
 - **Who is this for**: Developers, students, and teams.
 - **What you'll learn**: How to follow a feature branch workflow.
@@ -19,9 +19,9 @@ Widely used in the world of Git, the feature branch workflow makes it easy for m
 In this course, you will:
 
 1. Create a branch
-2. Commit a file
+2. Commit changes
 3. Open a pull request
-4. Merge changes from base branch
+4. Merge changes from the base branch
 5. Merge your pull request
 
 ### How to start this course
