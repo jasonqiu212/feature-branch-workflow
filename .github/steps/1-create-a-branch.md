@@ -18,7 +18,7 @@ Feature branching also makes it possible to use **pull requests**. They give dev
 
 ### :keyboard: Activity: Create a local feature branch
 
-:tada: Congratulations, you created a startup!
+Congratulations, you created a startup! :tada:
 
 With a group of friends, you co-founded DataWizard :magic_wand:, an interactive dashboard. Excited to showcase your startup, your team made a cool website, which can be viewed under [`website.md`](/website.md).
 
