@@ -8,13 +8,13 @@ The [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-
 
 ### Why use the feature branch workflow?
 
-**No broken code in `main`**: The encapsulation of features into dedicated branches makes it easy for developers to work on features without disturbing the main codebase. Thus, the `main` branch will never contain broken code.
+:muscle: **No broken code in `main`**: The encapsulation of features into dedicated branches makes it easy for developers to work on features without disturbing the main codebase. Thus, the `main` branch will never contain broken code.
 
-**Easy to collaborate**: The compartmentalization of feature branches makes it easy for multiple developers to work on features without interfering others. Without using branches, developers may resort to modifying the main codebase directly. As a result, developers may write code that breaks ongoing features done by others.
+:busts_in_silhouette: **Easy to collaborate**: The compartmentalization of feature branches makes it easy for multiple developers to work on features without interfering others. Without using branches, developers may resort to modifying the main codebase directly. As a result, developers may write code that breaks ongoing features done by others.
 
 Feature branching also makes it possible to use **pull requests**. They give developers an opportunity to receive feedback and approval on their feature before being merged into the `main` branch.
 
-**Popularity**: The core idea of the feature branch workflow is used by many other Git workflows, such as: [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) and [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow).
+:sparkles: **Popularity**: The core idea of the feature branch workflow is used by many other Git workflows, such as: [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) and [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow).
 
 ### :keyboard: Activity: Create a local feature branch
 
@@ -26,17 +26,19 @@ One day, you realize the website has a typo! :exploding_head: Can you find the t
 
 Embarrassed, you want to fix the typo quickly before the world finds out. Worried that your fix may break the website on the `main` branch, you decide to try out the feature branch workflow.
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+1. Open this page in a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 2. Clone this repository onto your local computer and navigate to the project directory.
 
 > [!TIP]
 > You may wish to refer to this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for more details on cloning a repository.
 
-3. In your terminal, navigate to the project directory.
-4. Create a new branch called `fix-typo` and switch to the new branch. The `fix-typo` branch will be your feature branch for fixing the typo. In this case, the branch name must be `fix-typo` to trigger the course workflow.
+3. Create a new branch called `fix-typo` and switch to the new branch. The `fix-typo` branch will be your **feature branch** for fixing the typo. In this case, the branch name must be `fix-typo` to trigger the course workflow.
 
 ```
+# Create a branch called `fix-typo`
 git branch fix-typo
+
+# Switch to branch `fix-typo`
 git checkout fix-typo
 ```
 
@@ -47,7 +49,7 @@ git checkout fix-typo
 > git checkout -b fix-typo
 > ```
 
-5. Push the `fix-typo` branch to the [remote repository](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories) you cloned from on GitHub.
+4. Push the `fix-typo` branch to the [remote repository](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories) you cloned from on GitHub.
 
 ```
 git push origin fix-typo
@@ -60,12 +62,18 @@ git push origin fix-typo
 > git push <remote> <branch>
 > ```
 >
-> where `<remote>` is the name of the remote connection pointing to a remote repository and `<branch>` is the specified local branch to push. Essentially, the above command pushes the local `fix-typo` branch to the repository you cloned from, which is pointed to by the remote connection named `origin`.
+> where `<remote>` is the name of the remote connection pointing to a remote repository and `<branch>` is the specified local branch to push. Essentially, the above command pushes the local `fix-typo` branch to the repository you cloned from, which is pointed to by the remote connection named [`origin`](https://www.geeksforgeeks.org/git-origin-master/).
 
-6. Return to the GitHub repository page and navigate to the **< > Code** tab in the header menu of your repository.
+5. Return to the GitHub repository page and navigate to the **< > Code** tab in the header menu of your repository.
 
-7. Click on the **main** branch drop-down. You will see your new `fix-typo` branch displayed in the drop-down.
+![Code Tab](/images/code-tab.png)
 
-8. Click on the **fix-typo** branch in the drop-down to switch to the new feature branch. The branch drop-down bar will reflect your new branch and display the new branch name.
+6. Click on the **main** branch drop-down. You will see your new `fix-typo` branch displayed in the drop-down.
 
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+![Main Drop-down](/images/branch-dropdown.png)
+
+7. Click on the **fix-typo** branch in the drop-down to switch to the new feature branch. The branch drop-down bar will reflect your new branch and display the new branch name.
+
+![fix-typo Branch](/images/fix-typo-branch.png)
+
+8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.

@@ -1,13 +1,13 @@
 name: Step 1, Create a branch
 
-# This step triggers listens for the learner to create branch ``.
+# This step triggers after the learner pushes a branch called `fix-typo`.
 # This workflow updates from step 1 to step 2.
 
-# This will run every time we create a branch or tag.
+# This will run every time the learner makes a push.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  create:
+  push:
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
