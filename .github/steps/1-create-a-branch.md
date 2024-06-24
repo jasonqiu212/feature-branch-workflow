@@ -66,14 +66,14 @@ git push origin fix-typo
 
 5. Return to the GitHub repository page and navigate to the **< > Code** tab in the header menu of your repository.
 
-![Code Tab](/images/code-tab.png)
+<img src="../../images/code-tab.png" alt="Code Tab" width="400">
 
 6. Click on the **main** branch drop-down. You will see your new `fix-typo` branch displayed in the drop-down.
 
-![Main Drop-down](/images/branch-dropdown.png)
+<img src="../../images/branch-dropdown.png" alt="Branch Dropdown" width="350">
 
 7. Click on the **fix-typo** branch in the drop-down to switch to the new feature branch. The branch drop-down bar will reflect your new branch and display the new branch name.
 
-![fix-typo Branch](/images/fix-typo-branch.png)
+<img src="../../images/fix-typo-branch.png" alt="fix-typo Branch" width="650">
 
 8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
