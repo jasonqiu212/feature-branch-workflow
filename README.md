@@ -2,11 +2,11 @@
 
 # Feature branch workflow
 
-_Learn one of the most popular Git workflows in less than an hour_
+_Try the most popular Git workflow safely inside this tutorial repository_ :sparkles:
 
 </header>
 
-## Welcome
+## Welcome :wave:
 
 Widely used in the world of Git, the feature branch workflow makes it easy for multiple developers to work on new features without disturbing the main codebase.
 
