@@ -1,6 +1,6 @@
 # DataWizard
 
-**DataWizard** is an **interactive dashboard** web application made with Pyton.
+**DataWizard** is an **interactive dashboard** web application made with Python.
 
 Some of DataWizard's features include:
 
