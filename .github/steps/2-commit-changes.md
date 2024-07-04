@@ -53,5 +53,11 @@ git push origin fix-typo
 ```
 
 6. Return to the GitHub repository page and navigate to the **< > Code** tab under the **fix-typo** branch of your repository.
-7. Navigate to the website under [`website.md`](/website.md). You will see your fix reflected.
+
+<img src="../../images/fix-typo-branch.png" alt="fix-typo Branch" width="650">
+
+7. Navigate to the website file in GitHub under [`website.md`](/website.md). You will see your fix reflected.
+
+<img src="../../images/fixed-website-on-github.png" alt="Fixed website" width="400">
+
 8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
